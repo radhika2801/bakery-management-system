@@ -1,0 +1,23 @@
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore SQLite database file (if using SQLite)
+*.sqlite
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Docker files (if you don’t want to track Docker images or containers)
+**/docker-compose.override.yml
+**/Dockerfile
+**/*.log
+
+# Ignore system-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
