@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sweet Delight Bakery</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background">
+        <div class="title">Sweet Delight Bakery</div>
+    </div>
+
+    <section id="products" class="product-container"></section>
+
+    <section id="cart">
+        <h2>Cart</h2>
+        <ul id="cart-list"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+        <button onclick="placeOrder()">Place Order</button>
+        <p id="order-id-result" style="color: green;"></p>
+    </section>
+
+    <section id="order-status">
+        <h2>Order Status</h2>
+        <input type="text" id="order-id-input" placeholder="Enter Order ID" />
+        <button onclick="checkStatus()">Check</button>
+        <p id="status-result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
